@@ -1,1 +1,2 @@
-baseurl: /christopherwoo
+markdown: rdiscount
+pygments: true
