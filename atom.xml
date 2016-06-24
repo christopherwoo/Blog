@@ -6,7 +6,7 @@ layout: nil
 
  <title>Christopher Woo</title>
  <link href="http://christopherwoo.github.io/atonm.xml" rel="self"/>
- <link href="http://christopherwoo.github.io/" rel="self"/>
+ <link href="http://christopherwoo.github.io/Blog" rel="self"/>
  <link type="application/atom+xml"  rel="self" href="http://christopher.github.io/Blog" />
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://christopherwoo.github.io/Blog</id>
