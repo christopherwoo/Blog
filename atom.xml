@@ -3,25 +3,25 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>Christopher Woo</title>
- <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
- <link href="http://tom.preston-werner.com/"/>
+ <link href="http://christopherwoo.github.io/Blog" rel="self"/>
+ <link type="application/atom+xml"  rel="self" href="http://christopher
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tom.preston-werner.com/</id>
+ <id>http://christopherwoo.github.io/Blog</id>
  <author>
    <name>Christopher Woo</name>
-   <email>tom@mojombo.com</email>
+   <email>christopherwoo13@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://tom.preston-werner.com{{ post.url }}"/>
+   <link href="http://christopherwoo.github.io/Blog{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tom.preston-werner.com{{ post.id }}</id>
+   <id>http://christopherwoo.github.io/Blog{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
